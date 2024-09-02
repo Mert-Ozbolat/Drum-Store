@@ -1,0 +1,29 @@
+$color-primary: #0e1111;
+$color-secondary: #353839;
+$color-text: #333;
+$color-white: #fff;
+$colo-white-transparent: rgba($color-white, .8);
+$font-primary: sans-serif;
+
+$button-border-radius: .5rem;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    color: $color-text;
+    line-height: 1.6;
+    font-weight: 600;
+    background-color: $color-primary;
+}
